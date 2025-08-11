@@ -1,17 +1,16 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { View, Text } from 'react-native'
 import React from 'react'
 import { useLocalSearchParams } from 'expo-router';
 
-const Details = () => {
+const MovieDetails= () => {
+  
+    // const { id } = useLocalSearchParams();
 
-    const {id} = useLocalSearchParams();
-  return (
+    return (
     <View>
-      <Text>Movie details : {id}</Text>
+      <Text>MovieDetails</Text>
     </View>
   )
 }
 
-export default Details;
-
-const styles = StyleSheet.create({})
+export default MovieDetails
